@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid green; */
+  font-family: montserrat;
+  background-color: antiquewhite;
+}
+.body-content {
+  margin: 3rem 6rem;
+}
+
+/* Nav-Bar style */
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav .nav ul {
+  display: flex;
+  text-decoration: none;
+}
+
+header nav .nav ul li {
+  text-decoration: none;
+  padding: 0 20px;
+  list-style: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+header nav .nav ul li a {
+  text-decoration: none;
+  color: black;
+  transition: ease 0.2s;
+}
+
+header nav .nav ul li a:hover {
+  color: orange;
+}
+
+header nav .sign-up-btn a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+header nav .sign-up-btn a:nth-child(2) {
+  background-color: rgb(0, 62, 0);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 3px;
+  transition: ease 0.5s;
+}
+
+header nav .sign-up-btn a:nth-child(2):hover {
+  background-color: transparent;
+  outline: 2px solid rgb(0, 62, 0);
+  padding: 1rem 2rem;
+  color: rgb(0, 62, 0);
+}
+/* Mobile-Nav Style */
+
+.menu-button {
+  position: absolute;
+  display: flex;
+  top: 2.5rem;
+  right: 2rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  z-index: 1;
+}
+
+.menu-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 1px;
+}
+.mobile-nav {
+  position: absolute;
+  top: 2rem;
+  text-align: end;
+  display: none;
+}
+
+.mobile-nav ul li {
+  list-style: none;
+}
+
+.mobile-nav ul li a {
+  display: block;
+  text-decoration: none;
+  margin: 2rem 0;
+  color: #000;
+}
+
+.hero-section .container {
+  display: flex;
+  width: 100%;
+  padding: 5rem 0;
+  justify-content: space-between;
+}
+
+/* Hero Style */
+
+.hero-section .container .hero-content {
+  margin-right: 6rem;
+}
+.hero-content h1 {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+.hero-content h1 span {
+  color: orange;
+}
+
+.hero-content p {
+  margin: 0.5rem 0;
+}
+
+.hero-content a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgb(0, 62, 0);
+  border-radius: 3px;
+  color: white;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  transition: ease 0.5s;
+}
+
+.hero-content a:hover {
+  background-color: transparent;
+  outline: 2px solid rgb(0, 62, 0);
+  padding: 1rem 2rem;
+  color: rgb(0, 62, 0);
+}
+
+.hero-section .container .hero-image img {
+  width: 70%;
+  height: auto;
+  margin-left: 7rem;
+  transition: ease 0.5s;
+}
+
+.hero-section .container .hero-image img:hover {
+  scale: 1.02;
+}
+
+.review-container {
+  display: flex;
+  margin-top: -11rem;
+}
+
+.review-container div img {
+  padding: 0 10px;
+}
+
+.trusted-section {
+  margin-top: 1rem;
+  text-align: center;
+  margin-top: 11rem;
+}
+
+.logos img {
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+@media all and (max-width: 900px) {
+  .body-content {
+    margin: 2rem 2rem;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+  .sign-up-btn {
+    display: none;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .hero-content h1 {
+    margin: 0.5rem 0;
+    font-size: 2rem;
+  }
+
+  .trusted-section {
+    margin-top: 1rem;
+    text-align: center;
+    margin-top: 8rem;
+  }
+
+  .logos img {
+    width: 60%;
+    height: auto;
+    margin-top: 3.5rem;
+    padding: 0 1rem;
+  }
+}
