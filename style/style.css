@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   /* outline: 1px solid green; */
-  font-family: montserrat;
+  font-family: poppins;
   background-color: antiquewhite;
 }
 .body-content {
@@ -154,7 +154,7 @@ header nav .sign-up-btn a:nth-child(2):hover {
 
 .review-container {
   display: flex;
-  margin-top: -11rem;
+  margin-top: -6rem;
 }
 
 .review-container div img {
@@ -196,11 +196,15 @@ header nav .sign-up-btn a:nth-child(2):hover {
 
   .hero-content h1 {
     margin: 0.5rem 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .review-container {
+    margin-top: -30%;
   }
 
   .trusted-section {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     text-align: center;
     margin-top: 8rem;
   }
