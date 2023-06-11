@@ -172,6 +172,8 @@ header nav .sign-up-btn a:nth-child(2):hover {
   padding: 0 1rem;
 }
 
+/* Media Queries */
+
 @media all and (max-width: 900px) {
   .body-content {
     margin: 2rem 2rem;
